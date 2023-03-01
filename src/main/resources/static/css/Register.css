@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ddedfc;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#logo{
+  width: 350px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding-right: 10px;
+  margin: 15px 20px;
+}
+
+#menu-login,#menu-register{
+  text-align: right;
+  text-decoration: none;
+  color: rgb(5, 5, 136);
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 15px;
+}

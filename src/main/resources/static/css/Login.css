@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ddedfc;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#logo{
+  width: 350px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding-right: 10px;
+  margin: 15px 20px;
+}
+
+#menu-login,#menu-register{
+  text-align: right;
+  text-decoration: none;
+  color: rgb(5, 5, 136);
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.Login-box{
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 80px auto;
+  padding: 15px;
+  display: block;
+  width: 450px;
+  height: 460px;
+}
+
+#login{
+  text-align: center;
+  color: rgb(5, 5, 136);
+}
+
+#id, #password{
+  padding: 15px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  width: 360px;
+  height: 50px;
+  margin: 10px 30px;
+  font-size: 15px;
+  letter-spacing:.035em;
+}
+
+.id-save{
+  margin-bottom: 30px;
+  padding-left: 30px;
+  font-size: small;
+}
+
+.btn{
+  text-align: center;
+  background-color: rgb(5, 5, 136);
+  color: #ffffff;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  width: 360px;
+  height: 45px;
+  margin: 10px 30px;
+}
+
+.register{
+  background-color: #ffffff;
+  border: 1px solid rgb(5, 5, 136);
+  color: rgb(5, 5, 136);
+}
+
+#or{
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #817f7f;
+}
