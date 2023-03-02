@@ -19,7 +19,7 @@ body{
   margin: 15px 20px;
 }
 
-#menu-login,#menu-register{
+#menu-register{
   text-align: right;
   text-decoration: none;
   color: rgb(5, 5, 136);

@@ -19,11 +19,45 @@ body{
   margin: 15px 20px;
 }
 
-#menu-login,#menu-register{
-  text-align: right;
-  text-decoration: none;
+#register{
+  text-align: center;
   color: rgb(5, 5, 136);
-  font-size: 25px;
-  font-weight: 600;
-  padding-left: 15px;
+}
+
+.info-A, .info-B{
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 80px auto;
+  padding: 15px;
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.info{
+  text-align: left;
+  color: rgb(5, 5, 136);
+  margin: 0 10px 25px;
+}
+
+label{
+  font-size: small;
+  font-weight:600;
+  margin-left: 10px;
+  margin-right: 50px;
+
+}
+
+input, select{
+  
+  height: 30px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.register-form{
+  display: flex;
+ 
+  width: 100%;
 }
